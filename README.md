@@ -86,7 +86,3 @@ To get started with the **Banking Transaction Management System Version 2**, fol
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 We welcome your feedback and contributions to enhance and optimize this banking system further.
-
----
-
-*Please note that the screenshots and paths mentioned in this README are based on fictional data and URLs. Make sure to replace them with actual URLs and paths corresponding to your hosted images and files.*
