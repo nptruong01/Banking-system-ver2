@@ -1,54 +1,29 @@
 # Banking Transaction Management System Version 2
 
-Welcome to the **Banking Transaction Management System** Version 2! This application is designed to provide a comprehensive solution for managing various banking transactions through an intuitive Java Swing-based graphical user interface.
+## Introduction
+The Banking Transaction Management System Version 2 is a Java Swing application designed to streamline and manage various banking operations. This system provides a user-friendly interface for customers and employees to perform essential banking tasks securely and efficiently.
 
 ## Functionality
 
 ### Customer Information Management
 
-#### Add
-When a customer visits the bank, they provide their information using a designated form. An employee then inputs the customer's personal details into the system, including full name, ID number, gender, address, and more.
-
-#### Delete
-Customers who no longer require banking services can request their information to be deleted. After confirming their account ownership, an employee will proceed to remove their details.
-
-#### Update
-Customers needing to modify their personal information can request updates. Following account ownership verification, an employee will update the customer's information accordingly.
+#### Add, Delete, and Update
+Customers interact with the bank by providing their information through a designated form. Bank employees use this information to manage customer data, including full name, ID number, gender, address, and more.
 
 ### Employee Account Management
 
-As the system is introduced, an all-access account (Admin) is provided to system administrators. This account enables the creation of sub-accounts tailored to specific tasks.
+#### Account Administration
+Administrators have access to a master account (Admin) which allows them to create sub-accounts with specific permissions. These sub-accounts are tailored for various tasks within the system.
 
-#### Add
-When a new employee is hired, the system administrator generates an account, including personal information and login credentials.
+### Transaction Handling
 
-#### Delete
-Upon an employee's departure from the bank, the system administrator deletes their account.
+#### Deposit, Withdrawal, and Money Transfer
+Customers can deposit, withdraw, and transfer funds by interacting with bank employees. Transactions are securely processed with appropriate authentication and fund checks.
 
-#### Update
-For password resets or personal information updates, the system administrator handles the necessary changes.
+### Account Inquiries
 
-Employees operate based on their account permissions assigned by the system administrator. They log in to perform tasks such as customer information management, deposits, transfers, withdrawals, and balance inquiries.
-
-### Deposit
-
-When customers wish to deposit funds, they visit the bank and request a deposit. Employees authenticate them using their ID and personal information. The system checks for account locks and then processes the deposit, updating the account balance.
-
-### Withdrawal
-
-Customers visiting the bank for withdrawals provide ID and personal information for authentication. The system checks account locks and sufficient funds (withdrawal amount < account balance) before processing the withdrawal.
-
-### Money Transfer
-
-To transfer funds, customers provide ID, personal information, and recipient account number for authentication. Account locks and sufficient funds (transfer amount < account balance) are verified before processing the transfer.
-
-### Check Balance
-
-Customers seeking account balances provide ID and personal information for authentication. Employees then display the account's current balance.
-
-### Transaction History
-
-Customers requesting transaction histories (deposits, withdrawals, transfers) authenticate with their ID and personal information. Employees provide transaction history statements in print for customers to review.
+#### Check Balance and Transaction History
+Customers can easily check their account balance and view transaction histories by providing necessary authentication. This allows for transparent and accurate account monitoring.
 
 ## Screenshots
 
