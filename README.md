@@ -2,18 +2,53 @@
 
 Welcome to the **Banking Transaction Management System** Version 2! This application is designed to provide a comprehensive solution for managing various banking transactions through an intuitive Java Swing-based graphical user interface.
 
-## Introduction
+## Functionality
 
-In the dynamic world of banking, managing transactions efficiently is paramount. The Banking Transaction Management System Version 2 offers a user-friendly interface built with Java Swing, allowing bank employees and administrators to seamlessly handle customer transactions, account management, and other essential functions.
+### Customer Information Management
 
-With this application, you can perform a range of tasks, including:
+#### Add
+When a customer visits the bank, they provide their information using a designated form. An employee then inputs the customer's personal details into the system, including full name, ID number, gender, address, and more.
 
-- **Customer Information Management:** Maintain customer details securely, enabling easy addition, deletion, and updating of information.
-- **Employee Account Management:** Administer employee accounts, granting specific permissions based on roles for efficient task delegation.
-- **Deposit, Withdrawal, and Money Transfer:** Facilitate seamless fund transactions between accounts while ensuring security and accuracy.
-- **Check Balance and Transaction History:** Provide customers with the ability to inquire about their account balance and transaction history.
-- **Branch Management:** Allow administrators to manage branches and associated information.
-- **And more...**
+#### Delete
+Customers who no longer require banking services can request their information to be deleted. After confirming their account ownership, an employee will proceed to remove their details.
+
+#### Update
+Customers needing to modify their personal information can request updates. Following account ownership verification, an employee will update the customer's information accordingly.
+
+### Employee Account Management
+
+As the system is introduced, an all-access account (Admin) is provided to system administrators. This account enables the creation of sub-accounts tailored to specific tasks.
+
+#### Add
+When a new employee is hired, the system administrator generates an account, including personal information and login credentials.
+
+#### Delete
+Upon an employee's departure from the bank, the system administrator deletes their account.
+
+#### Update
+For password resets or personal information updates, the system administrator handles the necessary changes.
+
+Employees operate based on their account permissions assigned by the system administrator. They log in to perform tasks such as customer information management, deposits, transfers, withdrawals, and balance inquiries.
+
+### Deposit
+
+When customers wish to deposit funds, they visit the bank and request a deposit. Employees authenticate them using their ID and personal information. The system checks for account locks and then processes the deposit, updating the account balance.
+
+### Withdrawal
+
+Customers visiting the bank for withdrawals provide ID and personal information for authentication. The system checks account locks and sufficient funds (withdrawal amount < account balance) before processing the withdrawal.
+
+### Money Transfer
+
+To transfer funds, customers provide ID, personal information, and recipient account number for authentication. Account locks and sufficient funds (transfer amount < account balance) are verified before processing the transfer.
+
+### Check Balance
+
+Customers seeking account balances provide ID and personal information for authentication. Employees then display the account's current balance.
+
+### Transaction History
+
+Customers requesting transaction histories (deposits, withdrawals, transfers) authenticate with their ID and personal information. Employees provide transaction history statements in print for customers to review.
 
 ## Screenshots
 
