@@ -58,7 +58,7 @@ Here are some screenshots showcasing the user interface of the application:
 ### Transaction History and Invoice Form Interface
 <img src="https://github.com/nptruong01/Banking-system-ver2/assets/113322089/4d7c0662-91fe-4494-8848-47097830179a.png" alt="Transaction History and Invoice Form" width="450"/>
 
-<img src="https://github.com/nptruong01/Banking-system-ver2/assets/113322089/ab559175-91bb-4a30-9856-26298e0fdb0e.png" alt="Transaction History and Invoice Form" width="250"/>
+<img src="https://github.com/nptruong01/Banking-system-ver2/assets/113322089/ab559175-91bb-4a30-9856-26298e0fdb0e.png" alt="Transaction History and Invoice Form" width="450"/>
 
 <img src="https://github.com/nptruong01/Banking-system-ver2/assets/113322089/16f7d0d6-cfdf-4eb7-abac-37081b40d91c.png" alt="Transaction History and Invoice Form" width="450"/>
 
