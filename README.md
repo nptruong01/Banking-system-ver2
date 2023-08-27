@@ -1,6 +1,5 @@
 # Banking Transaction Management System Version 2
 
-## Introduction
 The Banking Transaction Management System Version 2 is a Java Swing application designed to streamline and manage various banking operations. This system provides a user-friendly interface for customers and employees to perform essential banking tasks securely and efficiently.
 
 ## Functionality
